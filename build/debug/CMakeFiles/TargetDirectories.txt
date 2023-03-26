@@ -1,0 +1,3 @@
+S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/sdl_game.dir
+S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/edit_cache.dir
+S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/rebuild_cache.dir
