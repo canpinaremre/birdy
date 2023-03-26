@@ -1,0 +1,3 @@
+S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\birdy.dir/objects.a
+S:\Work\Software\mingw64\bin\llvm-ar.exe qc CMakeFiles\birdy.dir/objects.a @CMakeFiles\birdy.dir\objects1.rsp
+S:\Work\Software\mingw64\bin\clang++.exe -Wall -Wextra -pedantic -pthread -Wno-unused-private-field -Wthread-safety -g -Wl,--whole-archive CMakeFiles\birdy.dir/objects.a -Wl,--no-whole-archive -o S:\Work\Workspace\sdl_game\bin\birdy.exe -Wl,--out-implib,libbirdy.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\birdy.dir\linklibs.rsp

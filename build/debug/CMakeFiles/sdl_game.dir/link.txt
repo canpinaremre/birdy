@@ -1,3 +1,0 @@
-S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\sdl_game.dir/objects.a
-S:\Work\Software\mingw64\bin\llvm-ar.exe qc CMakeFiles\sdl_game.dir/objects.a @CMakeFiles\sdl_game.dir\objects1.rsp
-S:\Work\Software\mingw64\bin\clang++.exe -Wall -Wextra -pedantic -pthread -Wno-unused-private-field -Wthread-safety -g -Wl,--whole-archive CMakeFiles\sdl_game.dir/objects.a -Wl,--no-whole-archive -o S:\Work\Workspace\sdl_game\bin\sdl_game.exe -Wl,--out-implib,libsdl_game.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sdl_game.dir\linklibs.rsp

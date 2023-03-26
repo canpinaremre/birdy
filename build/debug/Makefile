@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named sdl_game
+# Target rules for targets named birdy
 
 # Build rule for target.
-sdl_game: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sdl_game
-.PHONY : sdl_game
+birdy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 birdy
+.PHONY : birdy
 
 # fast build rule for target.
-sdl_game/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/build
-.PHONY : sdl_game/fast
+birdy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/build
+.PHONY : birdy/fast
 
 lib/ImGui/imgui.obj: lib/ImGui/imgui.cpp.obj
 .PHONY : lib/ImGui/imgui.obj
 
 # target to build an object file
 lib/ImGui/imgui.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui.cpp.obj
 .PHONY : lib/ImGui/imgui.cpp.obj
 
 lib/ImGui/imgui.i: lib/ImGui/imgui.cpp.i
@@ -141,7 +141,7 @@ lib/ImGui/imgui.i: lib/ImGui/imgui.cpp.i
 
 # target to preprocess a source file
 lib/ImGui/imgui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui.cpp.i
 .PHONY : lib/ImGui/imgui.cpp.i
 
 lib/ImGui/imgui.s: lib/ImGui/imgui.cpp.s
@@ -149,7 +149,7 @@ lib/ImGui/imgui.s: lib/ImGui/imgui.cpp.s
 
 # target to generate assembly for a file
 lib/ImGui/imgui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui.cpp.s
 .PHONY : lib/ImGui/imgui.cpp.s
 
 lib/ImGui/imgui_demo.obj: lib/ImGui/imgui_demo.cpp.obj
@@ -157,7 +157,7 @@ lib/ImGui/imgui_demo.obj: lib/ImGui/imgui_demo.cpp.obj
 
 # target to build an object file
 lib/ImGui/imgui_demo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_demo.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_demo.cpp.obj
 .PHONY : lib/ImGui/imgui_demo.cpp.obj
 
 lib/ImGui/imgui_demo.i: lib/ImGui/imgui_demo.cpp.i
@@ -165,7 +165,7 @@ lib/ImGui/imgui_demo.i: lib/ImGui/imgui_demo.cpp.i
 
 # target to preprocess a source file
 lib/ImGui/imgui_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_demo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_demo.cpp.i
 .PHONY : lib/ImGui/imgui_demo.cpp.i
 
 lib/ImGui/imgui_demo.s: lib/ImGui/imgui_demo.cpp.s
@@ -173,7 +173,7 @@ lib/ImGui/imgui_demo.s: lib/ImGui/imgui_demo.cpp.s
 
 # target to generate assembly for a file
 lib/ImGui/imgui_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_demo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_demo.cpp.s
 .PHONY : lib/ImGui/imgui_demo.cpp.s
 
 lib/ImGui/imgui_draw.obj: lib/ImGui/imgui_draw.cpp.obj
@@ -181,7 +181,7 @@ lib/ImGui/imgui_draw.obj: lib/ImGui/imgui_draw.cpp.obj
 
 # target to build an object file
 lib/ImGui/imgui_draw.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_draw.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_draw.cpp.obj
 .PHONY : lib/ImGui/imgui_draw.cpp.obj
 
 lib/ImGui/imgui_draw.i: lib/ImGui/imgui_draw.cpp.i
@@ -189,7 +189,7 @@ lib/ImGui/imgui_draw.i: lib/ImGui/imgui_draw.cpp.i
 
 # target to preprocess a source file
 lib/ImGui/imgui_draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_draw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_draw.cpp.i
 .PHONY : lib/ImGui/imgui_draw.cpp.i
 
 lib/ImGui/imgui_draw.s: lib/ImGui/imgui_draw.cpp.s
@@ -197,7 +197,7 @@ lib/ImGui/imgui_draw.s: lib/ImGui/imgui_draw.cpp.s
 
 # target to generate assembly for a file
 lib/ImGui/imgui_draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_draw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_draw.cpp.s
 .PHONY : lib/ImGui/imgui_draw.cpp.s
 
 lib/ImGui/imgui_impl_opengl3.obj: lib/ImGui/imgui_impl_opengl3.cpp.obj
@@ -205,7 +205,7 @@ lib/ImGui/imgui_impl_opengl3.obj: lib/ImGui/imgui_impl_opengl3.cpp.obj
 
 # target to build an object file
 lib/ImGui/imgui_impl_opengl3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_impl_opengl3.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_impl_opengl3.cpp.obj
 .PHONY : lib/ImGui/imgui_impl_opengl3.cpp.obj
 
 lib/ImGui/imgui_impl_opengl3.i: lib/ImGui/imgui_impl_opengl3.cpp.i
@@ -213,7 +213,7 @@ lib/ImGui/imgui_impl_opengl3.i: lib/ImGui/imgui_impl_opengl3.cpp.i
 
 # target to preprocess a source file
 lib/ImGui/imgui_impl_opengl3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_impl_opengl3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_impl_opengl3.cpp.i
 .PHONY : lib/ImGui/imgui_impl_opengl3.cpp.i
 
 lib/ImGui/imgui_impl_opengl3.s: lib/ImGui/imgui_impl_opengl3.cpp.s
@@ -221,7 +221,7 @@ lib/ImGui/imgui_impl_opengl3.s: lib/ImGui/imgui_impl_opengl3.cpp.s
 
 # target to generate assembly for a file
 lib/ImGui/imgui_impl_opengl3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_impl_opengl3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_impl_opengl3.cpp.s
 .PHONY : lib/ImGui/imgui_impl_opengl3.cpp.s
 
 lib/ImGui/imgui_impl_sdl.obj: lib/ImGui/imgui_impl_sdl.cpp.obj
@@ -229,7 +229,7 @@ lib/ImGui/imgui_impl_sdl.obj: lib/ImGui/imgui_impl_sdl.cpp.obj
 
 # target to build an object file
 lib/ImGui/imgui_impl_sdl.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_impl_sdl.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_impl_sdl.cpp.obj
 .PHONY : lib/ImGui/imgui_impl_sdl.cpp.obj
 
 lib/ImGui/imgui_impl_sdl.i: lib/ImGui/imgui_impl_sdl.cpp.i
@@ -237,7 +237,7 @@ lib/ImGui/imgui_impl_sdl.i: lib/ImGui/imgui_impl_sdl.cpp.i
 
 # target to preprocess a source file
 lib/ImGui/imgui_impl_sdl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_impl_sdl.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_impl_sdl.cpp.i
 .PHONY : lib/ImGui/imgui_impl_sdl.cpp.i
 
 lib/ImGui/imgui_impl_sdl.s: lib/ImGui/imgui_impl_sdl.cpp.s
@@ -245,7 +245,7 @@ lib/ImGui/imgui_impl_sdl.s: lib/ImGui/imgui_impl_sdl.cpp.s
 
 # target to generate assembly for a file
 lib/ImGui/imgui_impl_sdl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_impl_sdl.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_impl_sdl.cpp.s
 .PHONY : lib/ImGui/imgui_impl_sdl.cpp.s
 
 lib/ImGui/imgui_impl_sdlrenderer.obj: lib/ImGui/imgui_impl_sdlrenderer.cpp.obj
@@ -253,7 +253,7 @@ lib/ImGui/imgui_impl_sdlrenderer.obj: lib/ImGui/imgui_impl_sdlrenderer.cpp.obj
 
 # target to build an object file
 lib/ImGui/imgui_impl_sdlrenderer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_impl_sdlrenderer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_impl_sdlrenderer.cpp.obj
 .PHONY : lib/ImGui/imgui_impl_sdlrenderer.cpp.obj
 
 lib/ImGui/imgui_impl_sdlrenderer.i: lib/ImGui/imgui_impl_sdlrenderer.cpp.i
@@ -261,7 +261,7 @@ lib/ImGui/imgui_impl_sdlrenderer.i: lib/ImGui/imgui_impl_sdlrenderer.cpp.i
 
 # target to preprocess a source file
 lib/ImGui/imgui_impl_sdlrenderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_impl_sdlrenderer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_impl_sdlrenderer.cpp.i
 .PHONY : lib/ImGui/imgui_impl_sdlrenderer.cpp.i
 
 lib/ImGui/imgui_impl_sdlrenderer.s: lib/ImGui/imgui_impl_sdlrenderer.cpp.s
@@ -269,7 +269,7 @@ lib/ImGui/imgui_impl_sdlrenderer.s: lib/ImGui/imgui_impl_sdlrenderer.cpp.s
 
 # target to generate assembly for a file
 lib/ImGui/imgui_impl_sdlrenderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_impl_sdlrenderer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_impl_sdlrenderer.cpp.s
 .PHONY : lib/ImGui/imgui_impl_sdlrenderer.cpp.s
 
 lib/ImGui/imgui_tables.obj: lib/ImGui/imgui_tables.cpp.obj
@@ -277,7 +277,7 @@ lib/ImGui/imgui_tables.obj: lib/ImGui/imgui_tables.cpp.obj
 
 # target to build an object file
 lib/ImGui/imgui_tables.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_tables.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_tables.cpp.obj
 .PHONY : lib/ImGui/imgui_tables.cpp.obj
 
 lib/ImGui/imgui_tables.i: lib/ImGui/imgui_tables.cpp.i
@@ -285,7 +285,7 @@ lib/ImGui/imgui_tables.i: lib/ImGui/imgui_tables.cpp.i
 
 # target to preprocess a source file
 lib/ImGui/imgui_tables.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_tables.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_tables.cpp.i
 .PHONY : lib/ImGui/imgui_tables.cpp.i
 
 lib/ImGui/imgui_tables.s: lib/ImGui/imgui_tables.cpp.s
@@ -293,7 +293,7 @@ lib/ImGui/imgui_tables.s: lib/ImGui/imgui_tables.cpp.s
 
 # target to generate assembly for a file
 lib/ImGui/imgui_tables.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_tables.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_tables.cpp.s
 .PHONY : lib/ImGui/imgui_tables.cpp.s
 
 lib/ImGui/imgui_widgets.obj: lib/ImGui/imgui_widgets.cpp.obj
@@ -301,7 +301,7 @@ lib/ImGui/imgui_widgets.obj: lib/ImGui/imgui_widgets.cpp.obj
 
 # target to build an object file
 lib/ImGui/imgui_widgets.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_widgets.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_widgets.cpp.obj
 .PHONY : lib/ImGui/imgui_widgets.cpp.obj
 
 lib/ImGui/imgui_widgets.i: lib/ImGui/imgui_widgets.cpp.i
@@ -309,7 +309,7 @@ lib/ImGui/imgui_widgets.i: lib/ImGui/imgui_widgets.cpp.i
 
 # target to preprocess a source file
 lib/ImGui/imgui_widgets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_widgets.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_widgets.cpp.i
 .PHONY : lib/ImGui/imgui_widgets.cpp.i
 
 lib/ImGui/imgui_widgets.s: lib/ImGui/imgui_widgets.cpp.s
@@ -317,7 +317,7 @@ lib/ImGui/imgui_widgets.s: lib/ImGui/imgui_widgets.cpp.s
 
 # target to generate assembly for a file
 lib/ImGui/imgui_widgets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/lib/ImGui/imgui_widgets.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/lib/ImGui/imgui_widgets.cpp.s
 .PHONY : lib/ImGui/imgui_widgets.cpp.s
 
 src/game.obj: src/game.cpp.obj
@@ -325,7 +325,7 @@ src/game.obj: src/game.cpp.obj
 
 # target to build an object file
 src/game.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/src/game.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/src/game.cpp.obj
 .PHONY : src/game.cpp.obj
 
 src/game.i: src/game.cpp.i
@@ -333,7 +333,7 @@ src/game.i: src/game.cpp.i
 
 # target to preprocess a source file
 src/game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/src/game.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/src/game.cpp.i
 .PHONY : src/game.cpp.i
 
 src/game.s: src/game.cpp.s
@@ -341,7 +341,7 @@ src/game.s: src/game.cpp.s
 
 # target to generate assembly for a file
 src/game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/src/game.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/src/game.cpp.s
 .PHONY : src/game.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -349,7 +349,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -357,7 +357,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -365,7 +365,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/pipes.obj: src/pipes.cpp.obj
@@ -373,7 +373,7 @@ src/pipes.obj: src/pipes.cpp.obj
 
 # target to build an object file
 src/pipes.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/src/pipes.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/src/pipes.cpp.obj
 .PHONY : src/pipes.cpp.obj
 
 src/pipes.i: src/pipes.cpp.i
@@ -381,7 +381,7 @@ src/pipes.i: src/pipes.cpp.i
 
 # target to preprocess a source file
 src/pipes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/src/pipes.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/src/pipes.cpp.i
 .PHONY : src/pipes.cpp.i
 
 src/pipes.s: src/pipes.cpp.s
@@ -389,7 +389,7 @@ src/pipes.s: src/pipes.cpp.s
 
 # target to generate assembly for a file
 src/pipes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/src/pipes.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/src/pipes.cpp.s
 .PHONY : src/pipes.cpp.s
 
 src/player.obj: src/player.cpp.obj
@@ -397,7 +397,7 @@ src/player.obj: src/player.cpp.obj
 
 # target to build an object file
 src/player.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/src/player.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/src/player.cpp.obj
 .PHONY : src/player.cpp.obj
 
 src/player.i: src/player.cpp.i
@@ -405,7 +405,7 @@ src/player.i: src/player.cpp.i
 
 # target to preprocess a source file
 src/player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/src/player.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/src/player.cpp.i
 .PHONY : src/player.cpp.i
 
 src/player.s: src/player.cpp.s
@@ -413,7 +413,7 @@ src/player.s: src/player.cpp.s
 
 # target to generate assembly for a file
 src/player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/src/player.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/src/player.cpp.s
 .PHONY : src/player.cpp.s
 
 src/renderer.obj: src/renderer.cpp.obj
@@ -421,7 +421,7 @@ src/renderer.obj: src/renderer.cpp.obj
 
 # target to build an object file
 src/renderer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/src/renderer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/src/renderer.cpp.obj
 .PHONY : src/renderer.cpp.obj
 
 src/renderer.i: src/renderer.cpp.i
@@ -429,7 +429,7 @@ src/renderer.i: src/renderer.cpp.i
 
 # target to preprocess a source file
 src/renderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/src/renderer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/src/renderer.cpp.i
 .PHONY : src/renderer.cpp.i
 
 src/renderer.s: src/renderer.cpp.s
@@ -437,7 +437,7 @@ src/renderer.s: src/renderer.cpp.s
 
 # target to generate assembly for a file
 src/renderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_game.dir\build.make CMakeFiles/sdl_game.dir/src/renderer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\birdy.dir\build.make CMakeFiles/birdy.dir/src/renderer.cpp.s
 .PHONY : src/renderer.cpp.s
 
 # Help Target
@@ -448,7 +448,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... sdl_game
+	@echo ... birdy
 	@echo ... lib/ImGui/imgui.obj
 	@echo ... lib/ImGui/imgui.i
 	@echo ... lib/ImGui/imgui.s

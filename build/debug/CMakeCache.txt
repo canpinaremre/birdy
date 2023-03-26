@@ -106,7 +106,7 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=S:/Work/Workspace/sdl_game/build/debug/C
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/sdl_game
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/birdy
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=S:/Work/Software/mingw64/bin/ld.lld.exe
@@ -150,7 +150,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=sdl_game
+CMAKE_PROJECT_NAME:STATIC=birdy
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=S:/Work/Software/mingw64/bin/llvm-ranlib.exe
@@ -233,13 +233,13 @@ CMAKE_STRIP:FILEPATH=S:/Work/Software/mingw64/bin/llvm-strip.exe
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-sdl_game_BINARY_DIR:STATIC=S:/Work/Workspace/sdl_game/build/debug
+birdy_BINARY_DIR:STATIC=S:/Work/Workspace/sdl_game/build/debug
 
 //Value Computed by CMake
-sdl_game_IS_TOP_LEVEL:STATIC=ON
+birdy_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-sdl_game_SOURCE_DIR:STATIC=S:/Work/Workspace/sdl_game
+birdy_SOURCE_DIR:STATIC=S:/Work/Workspace/sdl_game
 
 
 ########################

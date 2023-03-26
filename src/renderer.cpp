@@ -30,18 +30,6 @@ bool Renderer::load_assets()
     if (birdy_down == NULL) { return 0; }
     birdy_ex = IMG_Load("sprites/birdy_ex.png");
     if (birdy_ex == NULL) { return 0; }
-    pipe = SDL_LoadBMP("sprites/pipe.bmp");
-    if (pipe == NULL) { return 0; }
-    pipe_inverted = SDL_LoadBMP("sprites/pipe_inverted.bmp");
-    if (pipe_inverted == NULL) { return 0; }
-    pipe_large = SDL_LoadBMP("sprites/pipe_large.bmp");
-    if (pipe_large == NULL) { return 0; }
-    pipe_large_inverted = SDL_LoadBMP("sprites/pipe_large_inverted.bmp");
-    if (pipe_large_inverted == NULL) { return 0; }
-    pipe_small = SDL_LoadBMP("sprites/pipe_small.bmp");
-    if (pipe_small == NULL) { return 0; }
-    pipe_small_inverted = SDL_LoadBMP("sprites/pipe_small_inverted.bmp");
-    if (pipe_small_inverted == NULL) { return 0; }
     pipe_png = IMG_Load("sprites/pipe_png.png");
     if (pipe_png == NULL) { return 0; }
 

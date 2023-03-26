@@ -84,9 +84,6 @@ private:
 public:
     SDL_Surface *background,
                 *birdy_up, *birdy_down, *birdy_ex,
-                *pipe, *pipe_inverted,
-                *pipe_large, *pipe_large_inverted, *pipe_png,
-                *pipe_small, *pipe_small_inverted;
-        
+                *pipe_png;
 
 };

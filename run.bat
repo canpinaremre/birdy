@@ -1,1 +1,1 @@
-powershell "Start-Process -WorkingDirectory ./bin ./bin/sdl_game.exe"
+powershell "Start-Process -WorkingDirectory ./bin ./bin/birdy.exe"

@@ -28,16 +28,16 @@ The CXX compiler identification is Clang, found in "S:/Work/Workspace/sdl_game/b
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):S:/Work/Software/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f2eff/fast && S:/Work/Software/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f2eff.dir\build.make CMakeFiles/cmTC_f2eff.dir/build
+Run Build Command(s):S:/Work/Software/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1f2bf/fast && S:/Work/Software/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1f2bf.dir\build.make CMakeFiles/cmTC_1f2bf.dir/build
 mingw32-make[1]: Entering directory 'S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f2eff.dir/CMakeCCompilerABI.c.obj
-S:\Work\Software\mingw64\bin\clang.exe   -v -MD -MT CMakeFiles/cmTC_f2eff.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\cmTC_f2eff.dir\CMakeCCompilerABI.c.obj.d -o CMakeFiles\cmTC_f2eff.dir\CMakeCCompilerABI.c.obj -c S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\share\cmake-3.24\Modules\CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_1f2bf.dir/CMakeCCompilerABI.c.obj
+S:\Work\Software\mingw64\bin\clang.exe   -v -MD -MT CMakeFiles/cmTC_1f2bf.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\cmTC_1f2bf.dir\CMakeCCompilerABI.c.obj.d -o CMakeFiles\cmTC_1f2bf.dir\CMakeCCompilerABI.c.obj -c S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\share\cmake-3.24\Modules\CMakeCCompilerABI.c
 (built by Brecht Sanders) clang version 14.0.3
 Target: x86_64-w64-windows-gnu
 Thread model: posix
 InstalledDir: S:/Work/Software/mingw64/bin
  (in-process)
- "S:/Work/Software/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp -resource-dir S:/Work/Software/mingw64/lib/clang/14.0.3 -dependency-file "CMakeFiles\\cmTC_f2eff.dir\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_f2eff.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem S:/Work/Software/mingw64/lib/clang/14.0.3/include -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include -internal-isystem S:/Work/Software/mingw64/include -fdebug-compilation-dir=S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -exception-model=seh -faddrsig -o "CMakeFiles\\cmTC_f2eff.dir\\CMakeCCompilerABI.c.obj" -x c "S:\\Work\\Software\\cmake-3.24.0-rc2-windows-x86_64\\share\\cmake-3.24\\Modules\\CMakeCCompilerABI.c"
+ "S:/Work/Software/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp -resource-dir S:/Work/Software/mingw64/lib/clang/14.0.3 -dependency-file "CMakeFiles\\cmTC_1f2bf.dir\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_1f2bf.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem S:/Work/Software/mingw64/lib/clang/14.0.3/include -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include -internal-isystem S:/Work/Software/mingw64/include -fdebug-compilation-dir=S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -exception-model=seh -faddrsig -o "CMakeFiles\\cmTC_1f2bf.dir\\CMakeCCompilerABI.c.obj" -x c "S:\\Work\\Software\\cmake-3.24.0-rc2-windows-x86_64\\share\\cmake-3.24\\Modules\\CMakeCCompilerABI.c"
 clang -cc1 version 14.0.3 based upon LLVM 14.0.3 default target x86_64-w64-mingw32
 ignoring nonexistent directory "S:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/include"
 #include "..." search starts here:
@@ -46,16 +46,16 @@ ignoring nonexistent directory "S:/Work/Software/mingw64/x86_64-w64-mingw32/sys-
  S:/Work/Software/mingw64/x86_64-w64-mingw32/include
  S:/Work/Software/mingw64/include
 End of search list.
-Linking C executable cmTC_f2eff.exe
-S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f2eff.dir\link.txt --verbose=1
-S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_f2eff.dir/objects.a
-S:\Work\Software\mingw64\bin\llvm-ar.exe qc CMakeFiles\cmTC_f2eff.dir/objects.a @CMakeFiles\cmTC_f2eff.dir\objects1.rsp
-S:\Work\Software\mingw64\bin\clang.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_f2eff.dir/objects.a -Wl,--no-whole-archive -o cmTC_f2eff.exe -Wl,--out-implib,libcmTC_f2eff.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Linking C executable cmTC_1f2bf.exe
+S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_1f2bf.dir\link.txt --verbose=1
+S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_1f2bf.dir/objects.a
+S:\Work\Software\mingw64\bin\llvm-ar.exe qc CMakeFiles\cmTC_1f2bf.dir/objects.a @CMakeFiles\cmTC_1f2bf.dir\objects1.rsp
+S:\Work\Software\mingw64\bin\clang.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_1f2bf.dir/objects.a -Wl,--no-whole-archive -o cmTC_1f2bf.exe -Wl,--out-implib,libcmTC_1f2bf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 (built by Brecht Sanders) clang version 14.0.3
 Target: x86_64-w64-windows-gnu
 Thread model: posix
 InstalledDir: S:/Work/Software/mingw64/bin
- "S:/Work/Software/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_f2eff.exe S:/Work/Software/mingw64/x86_64-w64-mingw32/lib/crt2.o S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o -LS:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0 -LS:/Work/Software/mingw64/x86_64-w64-mingw32/lib -LS:/Work/Software/mingw64/lib -LS:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib --whole-archive "CMakeFiles\\cmTC_f2eff.dir/objects.a" --no-whole-archive --out-implib libcmTC_f2eff.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o
+ "S:/Work/Software/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_1f2bf.exe S:/Work/Software/mingw64/x86_64-w64-mingw32/lib/crt2.o S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o -LS:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0 -LS:/Work/Software/mingw64/x86_64-w64-mingw32/lib -LS:/Work/Software/mingw64/lib -LS:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib --whole-archive "CMakeFiles\\cmTC_1f2bf.dir/objects.a" --no-whole-archive --out-implib libcmTC_1f2bf.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o
 mingw32-make[1]: Leaving directory 'S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp'
 
 
@@ -77,16 +77,16 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):S:/Work/Software/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f2eff/fast && S:/Work/Software/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f2eff.dir\build.make CMakeFiles/cmTC_f2eff.dir/build]
+  ignore line: [Run Build Command(s):S:/Work/Software/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1f2bf/fast && S:/Work/Software/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1f2bf.dir\build.make CMakeFiles/cmTC_1f2bf.dir/build]
   ignore line: [mingw32-make[1]: Entering directory 'S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_f2eff.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [S:\Work\Software\mingw64\bin\clang.exe   -v -MD -MT CMakeFiles/cmTC_f2eff.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\cmTC_f2eff.dir\CMakeCCompilerABI.c.obj.d -o CMakeFiles\cmTC_f2eff.dir\CMakeCCompilerABI.c.obj -c S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\share\cmake-3.24\Modules\CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_1f2bf.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [S:\Work\Software\mingw64\bin\clang.exe   -v -MD -MT CMakeFiles/cmTC_1f2bf.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\cmTC_1f2bf.dir\CMakeCCompilerABI.c.obj.d -o CMakeFiles\cmTC_1f2bf.dir\CMakeCCompilerABI.c.obj -c S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\share\cmake-3.24\Modules\CMakeCCompilerABI.c]
   ignore line: [(built by Brecht Sanders) clang version 14.0.3]
   ignore line: [Target: x86_64-w64-windows-gnu]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: S:/Work/Software/mingw64/bin]
   ignore line: [ (in-process)]
-  ignore line: [ "S:/Work/Software/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp -resource-dir S:/Work/Software/mingw64/lib/clang/14.0.3 -dependency-file "CMakeFiles\\cmTC_f2eff.dir\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_f2eff.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem S:/Work/Software/mingw64/lib/clang/14.0.3/include -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include -internal-isystem S:/Work/Software/mingw64/include -fdebug-compilation-dir=S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -exception-model=seh -faddrsig -o "CMakeFiles\\cmTC_f2eff.dir\\CMakeCCompilerABI.c.obj" -x c "S:\\Work\\Software\\cmake-3.24.0-rc2-windows-x86_64\\share\\cmake-3.24\\Modules\\CMakeCCompilerABI.c"]
+  ignore line: [ "S:/Work/Software/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp -resource-dir S:/Work/Software/mingw64/lib/clang/14.0.3 -dependency-file "CMakeFiles\\cmTC_1f2bf.dir\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_1f2bf.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem S:/Work/Software/mingw64/lib/clang/14.0.3/include -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include -internal-isystem S:/Work/Software/mingw64/include -fdebug-compilation-dir=S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -exception-model=seh -faddrsig -o "CMakeFiles\\cmTC_1f2bf.dir\\CMakeCCompilerABI.c.obj" -x c "S:\\Work\\Software\\cmake-3.24.0-rc2-windows-x86_64\\share\\cmake-3.24\\Modules\\CMakeCCompilerABI.c"]
   ignore line: [clang -cc1 version 14.0.3 based upon LLVM 14.0.3 default target x86_64-w64-mingw32]
   ignore line: [ignoring nonexistent directory "S:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/include"]
   ignore line: [#include "..." search starts here:]
@@ -95,22 +95,22 @@ Parsed C implicit link information from above output:
   ignore line: [ S:/Work/Software/mingw64/x86_64-w64-mingw32/include]
   ignore line: [ S:/Work/Software/mingw64/include]
   ignore line: [End of search list.]
-  ignore line: [Linking C executable cmTC_f2eff.exe]
-  ignore line: [S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f2eff.dir\link.txt --verbose=1]
-  ignore line: [S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_f2eff.dir/objects.a]
-  ignore line: [S:\Work\Software\mingw64\bin\llvm-ar.exe qc CMakeFiles\cmTC_f2eff.dir/objects.a @CMakeFiles\cmTC_f2eff.dir\objects1.rsp]
-  ignore line: [S:\Work\Software\mingw64\bin\clang.exe  -v -Wl --whole-archive CMakeFiles\cmTC_f2eff.dir/objects.a -Wl --no-whole-archive -o cmTC_f2eff.exe -Wl --out-implib libcmTC_f2eff.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Linking C executable cmTC_1f2bf.exe]
+  ignore line: [S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_1f2bf.dir\link.txt --verbose=1]
+  ignore line: [S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_1f2bf.dir/objects.a]
+  ignore line: [S:\Work\Software\mingw64\bin\llvm-ar.exe qc CMakeFiles\cmTC_1f2bf.dir/objects.a @CMakeFiles\cmTC_1f2bf.dir\objects1.rsp]
+  ignore line: [S:\Work\Software\mingw64\bin\clang.exe  -v -Wl --whole-archive CMakeFiles\cmTC_1f2bf.dir/objects.a -Wl --no-whole-archive -o cmTC_1f2bf.exe -Wl --out-implib libcmTC_1f2bf.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [(built by Brecht Sanders) clang version 14.0.3]
   ignore line: [Target: x86_64-w64-windows-gnu]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: S:/Work/Software/mingw64/bin]
-  link line: [ "S:/Work/Software/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_f2eff.exe S:/Work/Software/mingw64/x86_64-w64-mingw32/lib/crt2.o S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o -LS:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0 -LS:/Work/Software/mingw64/x86_64-w64-mingw32/lib -LS:/Work/Software/mingw64/lib -LS:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib --whole-archive "CMakeFiles\\cmTC_f2eff.dir/objects.a" --no-whole-archive --out-implib libcmTC_f2eff.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o]
+  link line: [ "S:/Work/Software/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_1f2bf.exe S:/Work/Software/mingw64/x86_64-w64-mingw32/lib/crt2.o S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o -LS:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0 -LS:/Work/Software/mingw64/x86_64-w64-mingw32/lib -LS:/Work/Software/mingw64/lib -LS:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib --whole-archive "CMakeFiles\\cmTC_1f2bf.dir/objects.a" --no-whole-archive --out-implib libcmTC_1f2bf.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o]
     arg [S:/Work/Software/mingw64/bin/ld] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_f2eff.exe] ==> ignore
+    arg [cmTC_1f2bf.exe] ==> ignore
     arg [S:/Work/Software/mingw64/x86_64-w64-mingw32/lib/crt2.o] ==> obj [S:/Work/Software/mingw64/x86_64-w64-mingw32/lib/crt2.o]
     arg [S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o] ==> obj [S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o]
     arg [-LS:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0] ==> dir [S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0]
@@ -118,10 +118,10 @@ Parsed C implicit link information from above output:
     arg [-LS:/Work/Software/mingw64/lib] ==> dir [S:/Work/Software/mingw64/lib]
     arg [-LS:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib] ==> dir [S:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\\cmTC_f2eff.dir/objects.a] ==> ignore
+    arg [CMakeFiles\\cmTC_1f2bf.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_f2eff.dll.a] ==> ignore
+    arg [libcmTC_1f2bf.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -161,16 +161,16 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):S:/Work/Software/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d1893/fast && S:/Work/Software/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d1893.dir\build.make CMakeFiles/cmTC_d1893.dir/build
+Run Build Command(s):S:/Work/Software/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1e1ea/fast && S:/Work/Software/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1e1ea.dir\build.make CMakeFiles/cmTC_1e1ea.dir/build
 mingw32-make[1]: Entering directory 'S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d1893.dir/CMakeCXXCompilerABI.cpp.obj
-S:\Work\Software\mingw64\bin\clang++.exe   -pthread -Wno-unused-private-field -Wthread-safety    -v -MD -MT CMakeFiles/cmTC_d1893.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\cmTC_d1893.dir\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\cmTC_d1893.dir\CMakeCXXCompilerABI.cpp.obj -c S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_1e1ea.dir/CMakeCXXCompilerABI.cpp.obj
+S:\Work\Software\mingw64\bin\clang++.exe   -pthread -Wno-unused-private-field -Wthread-safety    -v -MD -MT CMakeFiles/cmTC_1e1ea.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\cmTC_1e1ea.dir\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\cmTC_1e1ea.dir\CMakeCXXCompilerABI.cpp.obj -c S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp
 (built by Brecht Sanders) clang version 14.0.3
 Target: x86_64-w64-windows-gnu
 Thread model: posix
 InstalledDir: S:/Work/Software/mingw64/bin
  (in-process)
- "S:/Work/Software/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp -resource-dir S:/Work/Software/mingw64/lib/clang/14.0.3 -dependency-file "CMakeFiles\\cmTC_d1893.dir\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_d1893.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/11.3.0 -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/11.3.0/x86_64-w64-mingw32 -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/11.3.0/backward -internal-isystem S:/Work/Software/mingw64/include/c++/11.3.0 -internal-isystem S:/Work/Software/mingw64/include/c++/11.3.0/x86_64-w64-mingw32 -internal-isystem S:/Work/Software/mingw64/include/c++/11.3.0/backward -internal-isystem S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/include/c++ -internal-isystem S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/include/c++/x86_64-w64-mingw32 -internal-isystem S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/include/c++/backward -internal-isystem S:/Work/Software/mingw64/lib/clang/14.0.3/include -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include -internal-isystem S:/Work/Software/mingw64/include -Wno-unused-private-field -Wthread-safety -fdeprecated-macro -fdebug-compilation-dir=S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp -ferror-limit 19 -pthread -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o "CMakeFiles\\cmTC_d1893.dir\\CMakeCXXCompilerABI.cpp.obj" -x c++ "S:\\Work\\Software\\cmake-3.24.0-rc2-windows-x86_64\\share\\cmake-3.24\\Modules\\CMakeCXXCompilerABI.cpp"
+ "S:/Work/Software/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp -resource-dir S:/Work/Software/mingw64/lib/clang/14.0.3 -dependency-file "CMakeFiles\\cmTC_1e1ea.dir\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_1e1ea.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/11.3.0 -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/11.3.0/x86_64-w64-mingw32 -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/11.3.0/backward -internal-isystem S:/Work/Software/mingw64/include/c++/11.3.0 -internal-isystem S:/Work/Software/mingw64/include/c++/11.3.0/x86_64-w64-mingw32 -internal-isystem S:/Work/Software/mingw64/include/c++/11.3.0/backward -internal-isystem S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/include/c++ -internal-isystem S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/include/c++/x86_64-w64-mingw32 -internal-isystem S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/include/c++/backward -internal-isystem S:/Work/Software/mingw64/lib/clang/14.0.3/include -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include -internal-isystem S:/Work/Software/mingw64/include -Wno-unused-private-field -Wthread-safety -fdeprecated-macro -fdebug-compilation-dir=S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp -ferror-limit 19 -pthread -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o "CMakeFiles\\cmTC_1e1ea.dir\\CMakeCXXCompilerABI.cpp.obj" -x c++ "S:\\Work\\Software\\cmake-3.24.0-rc2-windows-x86_64\\share\\cmake-3.24\\Modules\\CMakeCXXCompilerABI.cpp"
 clang -cc1 version 14.0.3 based upon LLVM 14.0.3 default target x86_64-w64-mingw32
 ignoring nonexistent directory "S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++"
 ignoring nonexistent directory "S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"
@@ -191,16 +191,16 @@ ignoring nonexistent directory "S:/Work/Software/mingw64/x86_64-w64-mingw32/sys-
  S:/Work/Software/mingw64/x86_64-w64-mingw32/include
  S:/Work/Software/mingw64/include
 End of search list.
-Linking CXX executable cmTC_d1893.exe
-S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_d1893.dir\link.txt --verbose=1
-S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_d1893.dir/objects.a
-S:\Work\Software\mingw64\bin\llvm-ar.exe qc CMakeFiles\cmTC_d1893.dir/objects.a @CMakeFiles\cmTC_d1893.dir\objects1.rsp
-S:\Work\Software\mingw64\bin\clang++.exe -pthread -Wno-unused-private-field -Wthread-safety   -v -Wl,--whole-archive CMakeFiles\cmTC_d1893.dir/objects.a -Wl,--no-whole-archive -o cmTC_d1893.exe -Wl,--out-implib,libcmTC_d1893.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Linking CXX executable cmTC_1e1ea.exe
+S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_1e1ea.dir\link.txt --verbose=1
+S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_1e1ea.dir/objects.a
+S:\Work\Software\mingw64\bin\llvm-ar.exe qc CMakeFiles\cmTC_1e1ea.dir/objects.a @CMakeFiles\cmTC_1e1ea.dir\objects1.rsp
+S:\Work\Software\mingw64\bin\clang++.exe -pthread -Wno-unused-private-field -Wthread-safety   -v -Wl,--whole-archive CMakeFiles\cmTC_1e1ea.dir/objects.a -Wl,--no-whole-archive -o cmTC_1e1ea.exe -Wl,--out-implib,libcmTC_1e1ea.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 (built by Brecht Sanders) clang version 14.0.3
 Target: x86_64-w64-windows-gnu
 Thread model: posix
 InstalledDir: S:/Work/Software/mingw64/bin
- "S:/Work/Software/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_d1893.exe S:/Work/Software/mingw64/x86_64-w64-mingw32/lib/crt2.o S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o -LS:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0 -LS:/Work/Software/mingw64/x86_64-w64-mingw32/lib -LS:/Work/Software/mingw64/lib -LS:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib --whole-archive "CMakeFiles\\cmTC_d1893.dir/objects.a" --no-whole-archive --out-implib libcmTC_d1893.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o
+ "S:/Work/Software/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_1e1ea.exe S:/Work/Software/mingw64/x86_64-w64-mingw32/lib/crt2.o S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o -LS:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0 -LS:/Work/Software/mingw64/x86_64-w64-mingw32/lib -LS:/Work/Software/mingw64/lib -LS:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib --whole-archive "CMakeFiles\\cmTC_1e1ea.dir/objects.a" --no-whole-archive --out-implib libcmTC_1e1ea.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o
 mingw32-make[1]: Leaving directory 'S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp'
 
 
@@ -228,16 +228,16 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):S:/Work/Software/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d1893/fast && S:/Work/Software/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d1893.dir\build.make CMakeFiles/cmTC_d1893.dir/build]
+  ignore line: [Run Build Command(s):S:/Work/Software/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1e1ea/fast && S:/Work/Software/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1e1ea.dir\build.make CMakeFiles/cmTC_1e1ea.dir/build]
   ignore line: [mingw32-make[1]: Entering directory 'S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_d1893.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [S:\Work\Software\mingw64\bin\clang++.exe   -pthread -Wno-unused-private-field -Wthread-safety    -v -MD -MT CMakeFiles/cmTC_d1893.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\cmTC_d1893.dir\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\cmTC_d1893.dir\CMakeCXXCompilerABI.cpp.obj -c S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_1e1ea.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [S:\Work\Software\mingw64\bin\clang++.exe   -pthread -Wno-unused-private-field -Wthread-safety    -v -MD -MT CMakeFiles/cmTC_1e1ea.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\cmTC_1e1ea.dir\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\cmTC_1e1ea.dir\CMakeCXXCompilerABI.cpp.obj -c S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp]
   ignore line: [(built by Brecht Sanders) clang version 14.0.3]
   ignore line: [Target: x86_64-w64-windows-gnu]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: S:/Work/Software/mingw64/bin]
   ignore line: [ (in-process)]
-  ignore line: [ "S:/Work/Software/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp -resource-dir S:/Work/Software/mingw64/lib/clang/14.0.3 -dependency-file "CMakeFiles\\cmTC_d1893.dir\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_d1893.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/11.3.0 -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/11.3.0/x86_64-w64-mingw32 -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/11.3.0/backward -internal-isystem S:/Work/Software/mingw64/include/c++/11.3.0 -internal-isystem S:/Work/Software/mingw64/include/c++/11.3.0/x86_64-w64-mingw32 -internal-isystem S:/Work/Software/mingw64/include/c++/11.3.0/backward -internal-isystem S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/include/c++ -internal-isystem S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/include/c++/x86_64-w64-mingw32 -internal-isystem S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/include/c++/backward -internal-isystem S:/Work/Software/mingw64/lib/clang/14.0.3/include -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include -internal-isystem S:/Work/Software/mingw64/include -Wno-unused-private-field -Wthread-safety -fdeprecated-macro -fdebug-compilation-dir=S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp -ferror-limit 19 -pthread -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o "CMakeFiles\\cmTC_d1893.dir\\CMakeCXXCompilerABI.cpp.obj" -x c++ "S:\\Work\\Software\\cmake-3.24.0-rc2-windows-x86_64\\share\\cmake-3.24\\Modules\\CMakeCXXCompilerABI.cpp"]
+  ignore line: [ "S:/Work/Software/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp -resource-dir S:/Work/Software/mingw64/lib/clang/14.0.3 -dependency-file "CMakeFiles\\cmTC_1e1ea.dir\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_1e1ea.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/11.3.0 -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/11.3.0/x86_64-w64-mingw32 -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/11.3.0/backward -internal-isystem S:/Work/Software/mingw64/include/c++/11.3.0 -internal-isystem S:/Work/Software/mingw64/include/c++/11.3.0/x86_64-w64-mingw32 -internal-isystem S:/Work/Software/mingw64/include/c++/11.3.0/backward -internal-isystem S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/include/c++ -internal-isystem S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/include/c++/x86_64-w64-mingw32 -internal-isystem S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/include/c++/backward -internal-isystem S:/Work/Software/mingw64/lib/clang/14.0.3/include -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem S:/Work/Software/mingw64/x86_64-w64-mingw32/include -internal-isystem S:/Work/Software/mingw64/include -Wno-unused-private-field -Wthread-safety -fdeprecated-macro -fdebug-compilation-dir=S:/Work/Workspace/sdl_game/build/debug/CMakeFiles/CMakeTmp -ferror-limit 19 -pthread -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o "CMakeFiles\\cmTC_1e1ea.dir\\CMakeCXXCompilerABI.cpp.obj" -x c++ "S:\\Work\\Software\\cmake-3.24.0-rc2-windows-x86_64\\share\\cmake-3.24\\Modules\\CMakeCXXCompilerABI.cpp"]
   ignore line: [clang -cc1 version 14.0.3 based upon LLVM 14.0.3 default target x86_64-w64-mingw32]
   ignore line: [ignoring nonexistent directory "S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++"]
   ignore line: [ignoring nonexistent directory "S:/Work/Software/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"]
@@ -258,22 +258,22 @@ Parsed CXX implicit link information from above output:
   ignore line: [ S:/Work/Software/mingw64/x86_64-w64-mingw32/include]
   ignore line: [ S:/Work/Software/mingw64/include]
   ignore line: [End of search list.]
-  ignore line: [Linking CXX executable cmTC_d1893.exe]
-  ignore line: [S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_d1893.dir\link.txt --verbose=1]
-  ignore line: [S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_d1893.dir/objects.a]
-  ignore line: [S:\Work\Software\mingw64\bin\llvm-ar.exe qc CMakeFiles\cmTC_d1893.dir/objects.a @CMakeFiles\cmTC_d1893.dir\objects1.rsp]
-  ignore line: [S:\Work\Software\mingw64\bin\clang++.exe -pthread -Wno-unused-private-field -Wthread-safety   -v -Wl --whole-archive CMakeFiles\cmTC_d1893.dir/objects.a -Wl --no-whole-archive -o cmTC_d1893.exe -Wl --out-implib libcmTC_d1893.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Linking CXX executable cmTC_1e1ea.exe]
+  ignore line: [S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_1e1ea.dir\link.txt --verbose=1]
+  ignore line: [S:\Work\Software\cmake-3.24.0-rc2-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_1e1ea.dir/objects.a]
+  ignore line: [S:\Work\Software\mingw64\bin\llvm-ar.exe qc CMakeFiles\cmTC_1e1ea.dir/objects.a @CMakeFiles\cmTC_1e1ea.dir\objects1.rsp]
+  ignore line: [S:\Work\Software\mingw64\bin\clang++.exe -pthread -Wno-unused-private-field -Wthread-safety   -v -Wl --whole-archive CMakeFiles\cmTC_1e1ea.dir/objects.a -Wl --no-whole-archive -o cmTC_1e1ea.exe -Wl --out-implib libcmTC_1e1ea.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [(built by Brecht Sanders) clang version 14.0.3]
   ignore line: [Target: x86_64-w64-windows-gnu]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: S:/Work/Software/mingw64/bin]
-  link line: [ "S:/Work/Software/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_d1893.exe S:/Work/Software/mingw64/x86_64-w64-mingw32/lib/crt2.o S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o -LS:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0 -LS:/Work/Software/mingw64/x86_64-w64-mingw32/lib -LS:/Work/Software/mingw64/lib -LS:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib --whole-archive "CMakeFiles\\cmTC_d1893.dir/objects.a" --no-whole-archive --out-implib libcmTC_d1893.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o]
+  link line: [ "S:/Work/Software/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_1e1ea.exe S:/Work/Software/mingw64/x86_64-w64-mingw32/lib/crt2.o S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o -LS:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0 -LS:/Work/Software/mingw64/x86_64-w64-mingw32/lib -LS:/Work/Software/mingw64/lib -LS:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib --whole-archive "CMakeFiles\\cmTC_1e1ea.dir/objects.a" --no-whole-archive --out-implib libcmTC_1e1ea.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o]
     arg [S:/Work/Software/mingw64/bin/ld] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_d1893.exe] ==> ignore
+    arg [cmTC_1e1ea.exe] ==> ignore
     arg [S:/Work/Software/mingw64/x86_64-w64-mingw32/lib/crt2.o] ==> obj [S:/Work/Software/mingw64/x86_64-w64-mingw32/lib/crt2.o]
     arg [S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o] ==> obj [S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o]
     arg [-LS:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0] ==> dir [S:/Work/Software/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0]
@@ -281,10 +281,10 @@ Parsed CXX implicit link information from above output:
     arg [-LS:/Work/Software/mingw64/lib] ==> dir [S:/Work/Software/mingw64/lib]
     arg [-LS:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib] ==> dir [S:/Work/Software/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\\cmTC_d1893.dir/objects.a] ==> ignore
+    arg [CMakeFiles\\cmTC_1e1ea.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_d1893.dll.a] ==> ignore
+    arg [libcmTC_1e1ea.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore

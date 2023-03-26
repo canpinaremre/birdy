@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.0.0)
 
 # set the project name
-project("sdl_game")
+project("birdy")
 
 # specify the C++ standard
 set(CMAKE_CXX_STANDARD 17)

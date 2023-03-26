@@ -1,2 +1,2 @@
 cd bin
-gdbserver.exe localhost:2000 sdl_game.exe
+gdbserver.exe localhost:2000 birdy.exe
